@@ -1,0 +1,38 @@
+.not-rendered {
+    padding: 0 1rem;
+    /* padding: 0 1rem; // top right bottom left */
+}
+
+.navbar {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 200px;
+    height: 350px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
+}
